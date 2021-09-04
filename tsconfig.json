@@ -1,0 +1,24 @@
+{
+	"include": [
+		"src/**/*.ts",
+	],
+	"compilerOptions": {
+		"lib": [
+			"DOM",
+			"ES2017"
+		]
+	},
+	"typedocOptions": {
+		"entryPoints": [
+			"src/sus-fannithm-convertor/index.d.ts",
+			"src/const/dist/index.d.ts",
+			"src/utils/dist/src/index.d.ts"
+		],
+		"name": "Project Fannithm Documentation",
+		"out": "dist",
+		"readme": "docs/README.md",
+		"plugin": [
+			// "typedoc-plugin-markdown"
+		]
+	}
+}

@@ -1,0 +1,27 @@
+{
+  "name": "@fannithm/docs",
+  "description": "Documentation of Project Fannithm",
+  "version": "0.1.0-snapshot.1",
+  "license": "AGPL-3.0",
+  "author": "Qing Fu <zz5840@qq.com>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/fannithm/docs.git"
+  },
+  "private": false,
+  "scripts": {
+    "clean": "del-cli -f dist",
+    "build": "typedoc"
+  },
+  "devDependencies": {
+    "del-cli": "^4.0.1",
+    "typedoc": "^0.21.5",
+    "typedoc-plugin-markdown": "^3.10.4",
+    "typescript": "^4.3.5"
+  },
+  "dependencies": {
+    "@fannithm/const": "^0.1.0-snapshot.5",
+    "@fannithm/sus-fannithm-convertor": "^1.2.1",
+    "@fannithm/utils": "^0.1.0-snapshot.3"
+  }
+}

@@ -1,0 +1,70 @@
+// meta.json
+{
+	"name": "MR.TAXI",
+	"songName": "MR.TAXI",
+	"songNameRomanized": "MR TAXI",
+	"artist": "Reol",
+	"artistRomanized": "Reol",
+	"charter": "Qing Fu",
+	"preview": "181ff2fd-1a68-4033-ba7d-54f690d9210f",
+	"uuids": {
+		"762fafce-001d-4647-927a-c48cda3927a1": 1,
+		"f63f021a-0b63-427f-a97a-9d5c31e300bb": 2,
+		"c3e44235-2497-40fc-bae6-4442c9986c30": 3,
+		"181ff2fd-1a68-4033-ba7d-54f690d9210f": 3,
+		"b676ba7c-b73c-4848-9816-0c8d14b95964": 4
+	},
+	"resources": {
+		// other
+		"0": [],
+		// meta
+		"1": [
+			{
+				"id": "762fafce-001d-4647-927a-c48cda3927a1",
+				"name": "meta.json",
+				"type": 1
+			}
+		],
+		// map
+		"2": [
+			{
+				"id": "f63f021a-0b63-427f-a97a-9d5c31e300bb",
+				"name": "expert.json",
+				"type": 2,
+				"mapType": 0,
+				"color": "red",
+				"difficulty": "Expert",
+				"level": 28,
+				"music": "c3e44235-2497-40fc-bae6-4442c9986c30",
+				"bg": "b676ba7c-b73c-4848-9816-0c8d14b95964",
+				"offset": 0,
+				"scripts": []
+			}
+		],
+		// audio
+		"3": [
+			{
+				"id": "c3e44235-2497-40fc-bae6-4442c9986c30",
+				"name": "bgm.mp3",
+				"type": 3
+			},
+			{
+				"id": "181ff2fd-1a68-4033-ba7d-54f690d9210f",
+				"name": "preview.mp3",
+				"type": 3
+			}
+		],
+		// image
+		"4": [
+			{
+				"id": "b676ba7c-b73c-4848-9816-0c8d14b95964",
+				"name": "bg.png",
+				"type": 4
+			}
+		],
+		// video
+		"5": [],
+		// script
+		"6": []
+	}
+}
