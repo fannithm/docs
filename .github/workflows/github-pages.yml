@@ -16,9 +16,9 @@ jobs:
       - uses: actions/setup-node@v2
         with:
           node-version: 14
-          registry-url: https://npm.pkg.github.com/
-      - name: Run a multi-line script
-        run: |
+      - run: |
           yarn install
           mv node_modules/@fannithm/* src/
           yarn build
+        env:
+          NODE_AUTH_TOKEN: ${{secrets.GITHUB_TOKEN}}
